@@ -23,7 +23,7 @@ Designed for digitizing feedback at public service centers, improving transparen
 | **Frontend**  | HTML5, CSS3, JavaScript |
 | **Backend**   | PHP (Core PHP) |
 | **Database**  | MySQL |
-| **Tools**     | phpMyAdmin, XAMPP / WAMP / LAMP |
+| **Tools**     | phpMyAdmin, XAMPP |
 | **Other**     | QR Code Generator |
 
 ---
