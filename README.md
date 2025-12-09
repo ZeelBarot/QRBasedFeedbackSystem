@@ -139,3 +139,90 @@ QRBasedFeedbackSystem/
 ├── hackathon.csv 
 ├── README.md 
 └── QR Code based citizen feedback system for Gujarat Police.pdf
+```
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the repository
+```
+git clone https://github.com/yourusername/QRBasedFeedbackSystem.git
+cd QRBasedFeedbackSystem/hackathon_22
+```
+
+### 2️⃣ Move project to your local server directory
+
+- XAMPP: C:/xampp/htdocs/QRBasedFeedbackSystem
+
+- WAMP: C:/wamp64/www/QRBasedFeedbackSystem
+
+- LAMP: /var/www/html/QRBasedFeedbackSystem
+
+### 3️⃣ Import the database
+
+- Open phpMyAdmin
+
+- Create a new database (e.g., feedbackdb)
+
+- Import hackathon.csv or your .sql export
+
+### 4️⃣ Configure database connection
+
+Edit insert_data.php, checking_credentials.php, or config.php:
+
+```
+$connection = mysqli_connect("localhost", "root", "", "feedbackdb");
+```
+
+### 5️⃣ Run the system
+
+Open:
+
+```
+http://localhost/QRBasedFeedbackSystem/hackathon_22/user/form.php
+```
+
+Or QR-scanned link.
+
+## 🔍 How the System Works
+
+1. QR code is generated for each police station / service point.
+2. User scans the QR and is redirected to the feedback form.
+3. User fills ratings, selects categories, and submits the form.
+4. Data is stored securely in MySQL.
+5. Admin & Officers log in to view:
+   - Daily/weekly feedback
+   - Rating charts (bar, line, pie)
+   - FIR, wait time, behavior, and service charts
+6. Export options allow admins to download reports for analysis.
+
+## 📸 Screenshots
+
+![User Feedback Form](screenshots/form.png)
+![Admin Dashboard](screenshots/dashboard.png)
+![Officer Panel](screenshots/officer.png)
+![QR Code](screenshots/qrcode.png)
+
+## 🔮 Future Enhancements
+
+- Firebase / MERN version with real-time analytics  
+- AI-powered sentiment analysis for comments  
+- Role-based dashboards (Admin, Officer, Supervisor)  
+- SMS / Email OTP verification  
+- Cloud deployment (Render, Vercel, Firebase Hosting)  
+- Automated reporting with PDF export  
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.  
+Feel free to open a Pull Request.
+
+## 🧾 License
+
+This project is licensed under the **MIT License**.
+
+## 📬 Contact
+
+**Zeel Barot**  
+Email: zeelbarot945@gmail.com  
+GitHub: https://github.com/ZeelBarot  
+LinkedIn: https://linkedin.com/in/zeel-barot-94058b26b
