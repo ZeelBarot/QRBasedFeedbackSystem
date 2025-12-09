@@ -28,6 +28,11 @@ Designed for digitizing feedback at public service centers, improving transparen
 
 ---
 
+## 📘 Project Origin
+
+Originally developed as a *Diploma major group project* under academic supervision.
+This fork serves as my personal workspace for continuation, improvements, and experimentation.
+
 ## 📂 Project Structure
 
 ```
